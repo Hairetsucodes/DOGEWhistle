@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "https://doge.hairetsu.com/doge.jpg",
+        url: "https://doge.hairetsu.com/og-image.jpg",
         width: 1200,
         height: 630,
         alt: "The DOGE Whistle - Government Accountability Platform",
@@ -44,7 +44,7 @@ export const metadata: Metadata = {
     title: "The DOGE Whistle - Government Accountability Platform",
     description:
       "A secure and anonymous platform for reporting government waste, fraud, and misuse of taxpayer funds. Protected by federal whistleblower laws. Much accountability, very justice! 🐕",
-    images: ["https://doge.hairetsu.com/doge.jpg"],
+    images: ["https://doge.hairetsu.com/og-image.jpg"],
     creator: "@doge",
   },
   robots: {
@@ -71,8 +71,8 @@ export default function RootLayout({
         {children}
         <footer className="flex justify-center items-center">
           <p className="text-sm text-muted-foreground absolute bottom-4">
-            Protected under federal whistleblower laws · This is a
-            concept demo and not affiliated with any government agency
+            Protected under federal whistleblower laws · This is a concept demo
+            and not affiliated with any government agency
           </p>
         </footer>
       </body>

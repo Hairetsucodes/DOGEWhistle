@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
+
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -69,12 +70,6 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         {children}
-        <footer className="flex justify-center items-center">
-          <p className="text-sm text-muted-foreground absolute bottom-4">
-            Protected under federal whistleblower laws · This is a concept demo
-            and not affiliated with any government agency
-          </p>
-        </footer>
       </body>
     </html>
   );

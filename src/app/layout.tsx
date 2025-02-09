@@ -15,36 +15,36 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   metadataBase: new URL("https://doge.hairetsu.com"),
   title: {
-    default: "The DOGE Whistle | Secure Whistleblowing Platform",
-    template: "%s | The DOGE Whistle | Secure Whistleblowing Platform",
+    default: "The DOGE Whistle | Government Accountability Platform",
+    template: "%s | The DOGE Whistle | Government Accountability Platform",
   },
   description:
-    "Much whistleblowing, very transparency! 🐕 A secure and anonymous platform helping good doges report misconduct and wrongdoing since 2024. Protected under whistleblower laws.",
+    "Much accountability, very transparency! 🐕 A secure and anonymous platform for reporting government waste, fraud, and misuse of taxpayer funds. Protected under federal whistleblower laws.",
   keywords:
-    "whistleblowing, anonymous reporting, corporate transparency, workplace misconduct, ethical reporting, secure platform, whistleblower protection, anonymous tips",
+    "government whistleblowing, taxpayer funds, public sector accountability, government waste, fraud reporting, government transparency, whistleblower protection, anonymous reporting",
   openGraph: {
-    title: "The DOGE Whistle - Secure Anonymous Whistleblowing Platform",
+    title: "The DOGE Whistle - Government Accountability Platform",
     description:
-      "A secure and anonymous platform for reporting workplace misconduct and wrongdoing. Protected by whistleblower laws and regulations. Much transparency, very justice! 🐕",
+      "A secure and anonymous platform for reporting government waste, fraud, and misuse of taxpayer funds. Protected by federal whistleblower laws. Much accountability, very justice! 🐕",
     url: "https://doge.hairetsu.com",
     siteName: "The DOGE Whistle",
     locale: "en_US",
     type: "website",
     images: [
       {
-        url: "https://doge.hairetsu.com/og-image.avif",
+        url: "https://doge.hairetsu.com/doge.jpg",
         width: 1200,
         height: 630,
-        alt: "The DOGE Whistle - Secure Whistleblowing Platform",
+        alt: "The DOGE Whistle - Government Accountability Platform",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "The DOGE Whistle - Secure Anonymous Whistleblowing Platform",
+    title: "The DOGE Whistle - Government Accountability Platform",
     description:
-      "A secure and anonymous platform for reporting workplace misconduct and wrongdoing. Protected by whistleblower laws and regulations. Much transparency, very justice! 🐕",
-    images: ["https://doge.hairetsu.com/og-image.avif"],
+      "A secure and anonymous platform for reporting government waste, fraud, and misuse of taxpayer funds. Protected by federal whistleblower laws. Much accountability, very justice! 🐕",
+    images: ["https://doge.hairetsu.com/doge.jpg"],
     creator: "@doge",
   },
   robots: {
@@ -71,9 +71,8 @@ export default function RootLayout({
         {children}
         <footer className="flex justify-center items-center">
           <p className="text-sm text-muted-foreground absolute bottom-4">
-            Protected under whistleblower laws and regulations · This is a
-            concept demo and not affiliated with any government or regulatory
-            body
+            Protected under federal whistleblower laws · This is a
+            concept demo and not affiliated with any government agency
           </p>
         </footer>
       </body>

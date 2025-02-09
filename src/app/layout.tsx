@@ -13,9 +13,49 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "The DOGE Whistle",
+  metadataBase: new URL("https://doge.hairetsu.com"),
+  title: {
+    default: "The DOGE Whistle | Secure Whistleblowing Platform",
+    template: "%s | The DOGE Whistle | Secure Whistleblowing Platform",
+  },
   description:
-    "Much whistleblowing, very transparency! 🐕 Helping good doges report bad behavior since 2024.",
+    "Much whistleblowing, very transparency! 🐕 A secure and anonymous platform helping good doges report misconduct and wrongdoing since 2024. Protected under whistleblower laws.",
+  keywords:
+    "whistleblowing, anonymous reporting, corporate transparency, workplace misconduct, ethical reporting, secure platform, whistleblower protection, anonymous tips",
+  openGraph: {
+    title: "The DOGE Whistle - Secure Anonymous Whistleblowing Platform",
+    description:
+      "A secure and anonymous platform for reporting workplace misconduct and wrongdoing. Protected by whistleblower laws and regulations. Much transparency, very justice! 🐕",
+    url: "https://doge.hairetsu.com",
+    siteName: "The DOGE Whistle",
+    locale: "en_US",
+    type: "website",
+    images: [
+      {
+        url: "https://doge.hairetsu.com/og-image.avif",
+        width: 1200,
+        height: 630,
+        alt: "The DOGE Whistle - Secure Whistleblowing Platform",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "The DOGE Whistle - Secure Anonymous Whistleblowing Platform",
+    description:
+      "A secure and anonymous platform for reporting workplace misconduct and wrongdoing. Protected by whistleblower laws and regulations. Much transparency, very justice! 🐕",
+    images: ["https://doge.hairetsu.com/og-image.avif"],
+    creator: "@hairetsu",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+    },
+  },
 };
 
 export default function RootLayout({

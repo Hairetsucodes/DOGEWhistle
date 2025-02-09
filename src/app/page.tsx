@@ -32,7 +32,7 @@ export default function Home() {
               </div>
 
               <div className="cursor-pointer transform hover:scale-105 transition-transform duration-200">
-                <h1 className="animate-bounce-slow text-4xl md:text-5xl font-bold text-center bg-gradient-to-r from-primary/90 to-primary text-transparent bg-clip-text">
+                <h1 className="animate-bounce-slow text-4xl md:text-5xl font-bold text-center text-gradient">
                   Blow the DOGE whistle
                 </h1>
                 <div className="flex justify-center items-center mt-2">

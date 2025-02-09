@@ -32,6 +32,8 @@ body {
     --chart-3: 30 80% 55%;
     --chart-4: 280 65% 60%;
     --chart-5: 340 75% 55%;
+    --gradient-start: 0 0% 100%;
+    --gradient-end: 240 5% 84%;
   }
 }
 
@@ -41,5 +43,12 @@ body {
   }
   body {
     @apply bg-background text-foreground;
+  }
+}
+
+@layer utilities {
+  .text-gradient {
+    @apply bg-gradient-to-r from-[hsl(var(--gradient-start))] to-[hsl(var(--gradient-end))] text-transparent bg-clip-text;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.1);
   }
 }

@@ -1,13 +1,15 @@
-import { DialogTrigger } from "@radix-ui/react-dialog";
+"use client";
+
 import Image from "next/image";
 import {
   Dialog,
   DialogContent,
   DialogDescription,
   DialogTitle,
-} from "../ui/dialog";
+  DialogHeader,
+  DialogTrigger,
+} from "@/components/ui/dialog";
 import WhistleblowingForm from "./WhistleBlowerForm";
-import { DialogHeader } from "../ui/dialog";
 import doge from "@/assets/public.avif";
 import whistle from "@/assets/whistle.svg";
 

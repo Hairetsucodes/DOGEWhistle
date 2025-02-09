@@ -81,23 +81,11 @@ npm run build
 npm start
 ```
 
-## Contributing
-
-Please read our [Contributing Guidelines](CONTRIBUTING.md) before submitting any changes.
-
-## Support
-
-For technical support or questions about the platform:
-
-- Email: [support-email]
-- Internal helpdesk: [helpdesk-link]
-
 ## License
 
-This project is proprietary and confidential. Unauthorized copying, distribution, or use is strictly prohibited.
+MIT License
 
 ## Acknowledgments
 
-- Built and maintained by the Department of Government Efficiency
-- Powered by [Next.js](https://nextjs.org)
-- Secured by [relevant-security-measures]
+Just a concept demo for a whistleblowing solution.
+Have fun and lets make america great again!

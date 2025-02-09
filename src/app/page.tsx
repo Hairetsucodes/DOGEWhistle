@@ -71,9 +71,9 @@ export default function Home() {
 
         {/* Footer */}
         <p className="text-sm text-muted-foreground absolute bottom-4">
-          Protected under whistleblower laws and regulations · This is a concept demo and not affiliated with any government or regulatory body
+          Protected under whistleblower laws and regulations · This is a concept
+          demo and not affiliated with any government or regulatory body
         </p>
-        
       </div>
     </div>
   );

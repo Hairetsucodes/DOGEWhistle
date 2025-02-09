@@ -29,6 +29,13 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         {children}
+        <footer className="flex justify-center items-center">
+          <p className="text-sm text-muted-foreground absolute bottom-4">
+            Protected under whistleblower laws and regulations · This is a
+            concept demo and not affiliated with any government or regulatory
+            body
+          </p>
+        </footer>
       </body>
     </html>
   );

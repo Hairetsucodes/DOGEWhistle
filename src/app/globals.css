@@ -34,6 +34,7 @@ body {
     --chart-5: 340 75% 55%;
     --gradient-start: 0 0% 100%;
     --gradient-end: 240 5% 84%;
+    --radius: 0.5rem;
   }
 }
 

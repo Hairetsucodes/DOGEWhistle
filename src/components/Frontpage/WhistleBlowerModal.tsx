@@ -5,7 +5,7 @@ import {
   DialogContent,
   DialogDescription,
   DialogTitle,
-} from "@radix-ui/react-dialog";
+} from "../ui/dialog";
 import WhistleblowingForm from "./WhistleBlowerForm";
 import { DialogHeader } from "../ui/dialog";
 import doge from "@/assets/public.avif";

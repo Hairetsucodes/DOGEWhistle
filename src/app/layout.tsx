@@ -45,7 +45,7 @@ export const metadata: Metadata = {
     description:
       "A secure and anonymous platform for reporting workplace misconduct and wrongdoing. Protected by whistleblower laws and regulations. Much transparency, very justice! 🐕",
     images: ["https://doge.hairetsu.com/og-image.avif"],
-    creator: "@hairetsu",
+    creator: "@doge",
   },
   robots: {
     index: true,
